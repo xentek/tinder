@@ -190,6 +190,11 @@ module Tinder
       get(:uploads)['uploads'].map { |u| u['full_url'] }
     end
 
+    # Get the list of latest files for this room
+    def uploads(count = 5)
+      get(:uploads)['uploads']
+    end
+
     protected
       def load
         reload! unless @loaded

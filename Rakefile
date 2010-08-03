@@ -1,13 +1,13 @@
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "tinder"
-    gem.summary = "Ruby wrapper for the Campfire API"
+    gem.name = "xentinder"
+    gem.summary = "Ruby wrapper for the Campfire API, now with better uploads handling"
     gem.description = "A Ruby API for interfacing with Campfire, the 37Signals chat application."
-    gem.authors = ['Brandon Keepers']
-    gem.email = 'brandon@opensoul.org'
-    gem.homepage = 'http://github.com/collectiveidea/tinder'
-    gem.rubyforge_project = "tinder"
+    gem.authors = ['Brandon Keepers', 'Eric Marden']
+    gem.email = 'ruby@xentek.net'
+    gem.homepage = 'http://github.com/xentek/tinder'
+    #gem.rubyforge_project = "xentinder"
     gem.add_dependency "activesupport"
     gem.add_dependency "httparty"
     gem.add_dependency "mime-types"
